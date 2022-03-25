@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Dog from "../Dog/Dog";
-import Summary from "../Summary/Summary";
+import Cart from "../Summary/Summary";
 import './AllDogs.css'
 
 const AllDogs = () => {
@@ -20,7 +20,7 @@ const AllDogs = () => {
         ))}
       </div>
       <div className="liked-dog">
-        <Summary/>
+        <Cart/>
       </div>
     </div>
   );
