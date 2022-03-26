@@ -1,3 +1,4 @@
+/* eslint-disable array-callback-return */
 import React, { useEffect, useState } from "react";
 import Dog from "../Dog/Dog";
 import Cart from "../Cart/Cart";
@@ -15,24 +16,26 @@ const AllDogs = () => {
 
   const addToCart = (id) => {
     const newCart = [...cart, id];
-    let selectedDog = []
+    let selectedDog = [];
     // eslint-disable-next-line array-callback-return
-    newCart.map((cart) => {
-      if (selectedDog.indexOf(cart) === -1) {
-        selectedDog.push(cart)
-      } else {
-        alert("Sorry, You Can't choose the Same dog Twice. 🙁")
-      }
-    })
-    setCart(selectedDog);
+    newCart.length <= 5
+      ? newCart.map((cart) => {
+          if (selectedDog.indexOf(cart) === -1) {
+            selectedDog.push(cart);
+          } else {
+            alert("Sorry, You Can't choose the Same dog Twice. 🙁");
+          }
+          setCart(selectedDog);
+        })
+      : alert("No way, You can't add more than 5 Products. 🥺");
   };
   const ChooseOne = () => {
-    const random = Math.floor(Math.random() * cart.length)
-    const choosed = [cart[random]]
-    setCart(choosed)
+    const random = Math.floor(Math.random() * cart.length);
+    const choosed = [cart[random]];
+    setCart(choosed);
   };
   const ChooseAgain = () => {
-    setCart([])
+    setCart([]);
   };
   return (
     <div className="main-container">
