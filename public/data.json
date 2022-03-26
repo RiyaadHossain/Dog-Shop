@@ -1,62 +1,62 @@
 [
   {
     "id": 1,
-    "name": "Dog",
-    "price": 290,
+    "name": "Affenpinscher",
+    "price": 220,
     "img": "https://cdn2.thedogapi.com/images/BJa4kxc4X.jpg"
   },
   {
     "id": 2,
-    "name": "Dog",
-    "price": 290,
+    "name": "Afghan Hound",
+    "price": 200,
     "img": "https://cdn2.thedogapi.com/images/hMyT4CDXR.jpg"
   },
   {
     "id": 3,
-    "name": "Dog",
-    "price": 290,
+    "name": "African Hunting Dog",
+    "price": 790,
     "img": "https://cdn2.thedogapi.com/images/rkiByec47.jpg"
   },
   {
     "id": 4,
-    "name": "Dog",
+    "name": "Airedale Terrier",
     "price": 290,
     "img": "https://cdn2.thedogapi.com/images/1-7cgoZSh.jpg"
   },
   {
     "id": 5,
-    "name": "Dog",
-    "price": 290,
+    "name": "Akbash Dog",
+    "price": 380,
     "img": "https://cdn2.thedogapi.com/images/26pHT3Qk7.jpg"
   },
   {
     "id": 6,
-    "name": "Dog",
+    "name": "Australian Kelpie",
     "price": 290,
     "img": "https://cdn2.thedogapi.com/images/BFRYBufpm.jpg"
   },
   {
     "id": 7,
-    "name": "Dog",
-    "price": 290,
+    "name": "Cattle Dog",
+    "price": 450,
     "img": "https://cdn2.thedogapi.com/images/33mJ-V3RX.jpg"
   },
   {
     "id": 8,
-    "name": "Dog",
-    "price": 290,
+    "name": "Eskimo Dog",
+    "price": 199,
     "img": "https://cdn2.thedogapi.com/images/-HgpNnGXl.jpg"
   },
   {
     "id": 9,
-    "name": "Dog",
-    "price": 290,
+    "name": "Water Spaniel",
+    "price": 249,
     "img": "https://cdn2.thedogapi.com/images/dW5UucTIW.jpg"
   },
   {
     "id": 10,
-    "name": "Dog",
-    "price": 290,
+    "name": "Staffordshire Terrier",
+    "price": 345,
     "img": "https://cdn2.thedogapi.com/images/pk1AAdloG.jpg"
   }
 ]
