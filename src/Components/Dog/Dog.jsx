@@ -2,7 +2,7 @@ import React from "react";
 import { HiShoppingCart } from "react-icons/hi";
 import "./Dog.css";
 
-const Dog = ({ dog }) => {
+const Dog = ({ dog, addToCart }) => {
   const { name, img, price } = dog;
   return (
     <div className="card">
@@ -14,7 +14,7 @@ const Dog = ({ dog }) => {
             <p className="lead">
               <strong>Price:</strong> ${price}
             </p>
-            <button className="btn">
+            <button onClick={() => addToCart(dog)} className="btn">
               <HiShoppingCart />
             </button>
           </div>

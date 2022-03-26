@@ -1,0 +1,14 @@
+.cart-item-main{
+    display: flex;
+    align-items: center;
+}
+.cart-item-main img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.dog-name{
+    font-size: 18px;
+}

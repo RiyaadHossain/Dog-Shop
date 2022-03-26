@@ -1,0 +1,32 @@
+.cart-container {
+  position: sticky;
+  top: 0;
+  padding-top: 10px;
+}
+.cart-container h2 {
+  text-align: center;
+}
+.cart-body {
+  padding-left: 15px;
+}
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+}
+.cart-btn {
+  margin-top: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 10px;
+}
+.cart-btn:hover {
+  background-color: black;
+  color: white;
+  transition: ease-in-out 0.5s;
+}
+.single-dog-container {
+  margin-bottom: 30px;
+}
