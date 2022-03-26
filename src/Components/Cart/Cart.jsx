@@ -3,14 +3,13 @@ import CartItem from "../CartItem/CartItem";
 import "./Cart.css";
 
 const Cart = ({ cart }) => {
-  console.log(cart);
   return (
     <div className="cart-container">
       <h2>Cart</h2>
       <div className="cart-body">
         <div className="single-dog-container">
           {cart.map((singleDog) => (
-            <CartItem singleDog={singleDog} />
+            <CartItem key={singleDog.id} singleDog={singleDog} />
           ))}
         </div>
         <div className="btn-container">
