@@ -14,7 +14,7 @@ const Cart = ({ cart }) => {
         </div>
         <div className="btn-container">
           <button className="cart-btn">Choose 1 for Me</button>
-          <button className="cart-btn">Choose Another</button>
+          <button className="cart-btn">Choose Again</button>
         </div>
       </div>
     </div>
