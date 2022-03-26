@@ -16,6 +16,7 @@ const AllDogs = () => {
   const addToCart = (id) => {
     const newCart = [...cart, id];
     let selectedDog = []
+    // eslint-disable-next-line array-callback-return
     newCart.map((cart) => {
       if (selectedDog.indexOf(cart) === -1) {
         selectedDog.push(cart)
