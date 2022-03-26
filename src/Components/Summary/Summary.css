@@ -1,8 +1,9 @@
 .summary-container{
     position: sticky;
     top: 0;
+    padding-top: 10px;
 }
-.summary-container h3{
+.summary-container h2{
     text-align: center;
 }
 .summ-body{

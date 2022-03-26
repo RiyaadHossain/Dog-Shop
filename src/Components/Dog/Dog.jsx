@@ -12,7 +12,7 @@ const Dog = ({ dog }) => {
           <h2>{name}</h2>
           <div className="flex">
             <p className="lead">
-              <strong>Price:</strong> {price}
+              <strong>Price:</strong> ${price}
             </p>
             <button className="btn">
               <HiShoppingCart />

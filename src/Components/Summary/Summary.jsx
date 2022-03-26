@@ -4,7 +4,7 @@ import './Summary.css'
 const Cart = () => {
     return (
         <div className='summary-container'>
-            <h3>Cart</h3>
+            <h2>Cart</h2>
             <div className="summ-body">
             {}
             <div className='btn-container'>
