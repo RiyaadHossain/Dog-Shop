@@ -1,0 +1,15 @@
+.question{
+    margin-top: 100px;
+    padding: 0 8%;
+}
+.question h2{
+    text-align: center;
+}
+.lead{
+    font-size: 19px;
+    font-weight: 500;
+    color: rgb(34, 34, 34);
+}
+.react-works{
+    margin-bottom: 40px;
+}
